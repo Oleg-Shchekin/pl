@@ -1,0 +1,327 @@
+
+/* HOME PAGE */
+a {
+    text-decoration: none !important;
+}
+
+body p, a, h1, h2, h3 {
+    font-family: Roboto, serif;
+}
+
+.header_main_image {
+    width: 100%;
+    height: 500px;
+    background: url("../images/libC.jpg") ;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.my_header_main {
+    background: rgba(230, 195, 82, 0.96);
+    height: 80px;
+    font-size: 18px;
+}
+
+.my_header_other{
+    background: rgba(230, 195, 82, 0.96);
+    height: 80px;
+    font-size: 18px;
+}
+
+.my_header_main a, p {
+    color: black;
+}
+
+.my_header_other a, p {
+    color: black;
+}
+
+.my_header_main a:hover, .my_header_other a:hover {
+    color: black;
+}
+
+.dropdown_language {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown_language:hover .dropdown-content {
+    display: block;
+}
+
+.main_phrase {
+    position: absolute;
+    top: 50px;
+}
+
+.main_phrase p {
+    color: white;
+}
+
+.main_phrase .first {
+    position: absolute;
+    /*top: 10px;*/
+    font-size: 70px;
+    margin-left: 20px;
+    vertical-align: top;
+    margin-bottom: 0;
+}
+
+.main_phrase .second {
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.search_book input[type=text] {
+    width: 300px;
+    height: 45px;
+    margin: auto;
+    border: none;
+    background: none;
+}
+
+.wrapper_search {
+    padding-top: 30px;
+    background: white;
+}
+
+.title_list{
+    padding-top: 60px;
+}
+
+.search_button {
+    height: 45px;
+    width: 45px;
+    background: none;
+    border: none;
+}
+
+.search_form{
+    margin: auto;
+    padding: auto;
+}
+
+.search_image {
+    width: 30px;
+}
+
+.search_book {
+    text-align: center;
+}
+.search_line{
+    height: 1px;
+    width: 350px;
+    margin: auto;
+    background: black;
+}
+
+.search_book textarea:focus, .search_book input:focus, .search_book button:focus{
+    outline: none;
+}
+
+.search_book button:focus img{
+    width: 32px;
+}
+
+.search_book input::placeholder{
+    color: black;
+    font-size: 18px;
+}
+
+
+.wrapper_image{
+    background: lightgray;
+}
+
+.title_list{
+    background: white;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.title_list .title{
+    margin-bottom: 30px;
+    color: darkslategray;
+}
+
+.book_image{
+    width: 235px;
+    height: 338px;
+    margin: 30px auto 25px auto;
+}
+
+.book_attributes_title{
+    font-size: 16px;
+}
+
+.book_attributes_item{
+    font-size: 14px;
+}
+
+.book_attributes p{
+    margin: 0 !important;
+}
+
+.book_attributes{
+    margin-bottom: 10px;
+}
+
+.book_name_wrapper{
+    padding: 5px;
+    background: darkgoldenrod;
+    text-align: center;
+}
+
+.book_name_wrapper p{
+    font-size: 18px;
+    color: darkslategray;
+    margin: 0;
+}
+
+.order_book_form input{
+    width: 100%;
+    background: darkslategray;
+    color: white;
+    border: darkslategray;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.book_item_order_book_form input{
+    width: 200px;
+}
+
+.order_book_form input:hover {
+    background: darkslategray;
+    padding: 6px;
+}
+
+.my_footer{
+    background: darkgoldenrod;
+    padding: 30px;
+}
+
+.my_footer p{
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.copyright{
+    bottom: 0;
+}
+
+.copyright p{
+    font-size: 14px;
+}
+
+.sign_form button{
+    background: darkslategray;
+    color: #FFEFD5;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* ADMIN PAGE */
+
+.admin_left_menu{
+    height: 100%;
+    width: 20%;
+    background: gray;
+    position: fixed;
+    overflow: auto;
+}
+
+.library_admin_text p{
+    color: white;
+    font-size: 30px;
+    margin:30px auto;
+}
+
+.admin_menu_button p{
+    border:2px solid white;
+    border-radius: 25px;
+    margin: 30px 30px;
+    padding:5px 0;
+    color: white;
+    text-align: center;
+}
+
+.admin_menu_button p:hover{
+    background: darkslategray;
+}
+
+.admin_right{
+    position: absolute;
+    margin-left: 23%;
+    width: auto;
+}
+
+.admin_welcome_text p {
+    color: black;
+    font-size: 40px;
+    margin:20px auto 0 0;
+}
+
+.margin_block{
+    margin-bottom: 30px;
+}
+
+.table_book_list{
+    width: auto;
+}
+
+.table_book_list table{
+    width: 100vh;
+}
+
+.table_book_list table{
+    border-color: darkslategray;
+}
+
+.table_book_list thead{
+    color: white;
+}
+
+.table_book_list .table-primary thead{
+    background-color: darkslategray;
+}
+
+.table_book_list .table-primary tbody{
+    background-color: white;
+    color: darkslategray;
+}
+
+.admin_title_content{
+    color: darkslategray;
+    font-size: 30px;
+}
+
+.admin_line{
+    width: 100%;
+    height: 2px;
+    background: darkslategray;
+}
+
+.my_form_item p{
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+    color: darkslategray;
+}
+
+.admin_edit_delete_book{
+    text-decoration: underline !important;
+}
+
